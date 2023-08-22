@@ -1,0 +1,21 @@
+.main {
+  background-color: white;
+  padding: 120px;
+}
+
+@media (max-width: 750px) and (min-width: 600px) {
+  .main {
+    padding: 120px 72px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 120px 20px;
+  }
+}
+@media (max-width: 350px) {
+  .main {
+    padding: 60px 10px;
+  }
+}
